@@ -1,0 +1,25 @@
+{
+  "posts": [
+    { "id": 1, "title": "json-server", "author": "typicode" },
+    { "id": 2, "title": "咋回事儿", "author": "walter" }
+  ],
+  "comments": [
+    { "id": 1, "body": "some comment", "postId": 1 }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "walter",
+      "email": "walterr@live.cn",
+      "password": "321123",
+      "role": "admin"
+    },
+    {
+      "id": 2,
+      "name": "jhy",
+      "email": "jhy@live.cn",
+      "password": "123",
+      "role": "user"
+    }
+  ]
+}

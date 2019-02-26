@@ -1,0 +1,32 @@
+.wrapper {
+    height: 300px;
+    width: 300px;
+    border: 2px solid black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.green, .blue, .red {
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 30px;
+}
+
+.green {
+    height: 80%;
+    background: green;
+}
+
+.blue {
+    height: 50%;
+    background: blue;
+}
+
+.red {
+    height: 60%;
+    background: red;
+}
